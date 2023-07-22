@@ -1,0 +1,86 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 황윤
+title: FrontEnd Developer
+email: 2514o_o@naver.com
+website: www.github.com/summermong
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: summermong
+
+# Additional icon links
+additional_links:
+  - title: tistory
+    icon: fas fa-globe
+    url: https://summermong.tistory.com/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm hwang yoon. and I'm a junior Frontend Developer. I majored in Chinese language and speech informatics and have worked as a marketer for about a year. After encountering coding by chance, I became interested in the field of web development, and among them, I am studying to be a Frontend Developer who can interact with users on the front line.
+
+  I am most skilled in: <mark>JavaScript💛</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: My previous life TEST
+        link: https://whatismypreviouslife.netlify.app/
+        # link_text: Project Website
+        additional_links:
+          - title: summermong/playground-js/tree/main/practice_rebirthTest
+            icon: fab fa-github
+            url: https://github.com/summermong/playground-js/tree/main/practice_rebirthTest
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          If you're curious about your previous life, test it now.
+        description: | # this will include new lines to allow paragraphs
+          A simple MBTI-based test will show you what you were like in your previous life. There are a total of 12 questions and 16 results, and you can also share the results with your friends by copying links or sharing KakaoTalk.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Inha University
+        caption: 2016 - 2020
+        sub_title: Sinology and Media Communication
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          I studied Chinese language, Chinese culture, and Chinese movies. and I studied various cultures and marketing with a double major in the Media Communication Department.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
